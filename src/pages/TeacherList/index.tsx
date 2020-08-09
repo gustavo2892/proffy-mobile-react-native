@@ -1,12 +1,14 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 
-import style from './styles';
+import styles from './styles';
+
+import PageHeader from '../../components/PageHeader';
 
 const TeacherList: React.FC = () => {
   return (
-    <View style={style.container}>
-      <Text>TeacherList Page</Text>
+    <View style={styles.container}>
+      <PageHeader title="Proffys disponíveis" />
     </View>
   );
 };

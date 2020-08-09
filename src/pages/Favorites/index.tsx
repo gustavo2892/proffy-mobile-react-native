@@ -3,10 +3,12 @@ import { View, Text } from 'react-native';
 
 import styles from './styles';
 
+import PageHeader from '../../components/PageHeader';
+
 const Favorites: React.FC = () => {
   return (
     <View style={styles.container}>
-      <Text>Favorites Page</Text>
+      <PageHeader title="Meus proffys favoritos" />
     </View>
   );
 };
